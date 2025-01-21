@@ -166,3 +166,47 @@ border-radius: 24px;
     
 }
 
+.title_format{
+    text-align: center;
+}
+.small1{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+width: 200px;
+height: 100px;
+border-radius: 4px;
+text-align: center;
+padding-top: 35px;
+background: rgb(255, 255, 255);
+}
+.special{
+     background: rgb(198, 228, 214);;
+}
+
+.mama{
+    display: flex;
+    justify-content: space-around;
+
+}
+.Donate{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+
+}
+.holder{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
+
