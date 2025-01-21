@@ -144,3 +144,25 @@ width: 370px;
 
 }
 
+.flexbaba{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    border-radius: 24px;
+    border-top: none ;
+    padding: 20px 36px;
+    margin: 40px 100px;
+    
+}
+.imgbaba{
+    width: 350px;
+height: 250px;
+border-radius: 24px;
+}
+.flexdiv{
+    padding: 30px 100px 0px ;
+    
+}
+
