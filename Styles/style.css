@@ -1,0 +1,146 @@
+
+.font{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+    padding: 20px 40px;
+    margin: 40px 100px;
+        
+}
+.banner1{
+    max-width: 250px;
+
+}
+
+.sub-1{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ttl-1{
+    color: rgb(14, 14, 14);
+    width: 200;
+    height: 250;
+font-family: Fira Sans;
+font-size: 42;
+font-weight: 500;
+
+
+}
+
+.btn-1{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 3px;
+    background: rgb(0, 106, 80);
+    
+}
+
+.img1{
+    width: 474.03px;
+    height: 329.21px;
+}
+
+.secdiv{
+   
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 17px;
+font-weight: 500;
+text-align: left;
+
+}
+
+.ban{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 13px;
+font-weight: 400;
+}
+
+.padd{
+    margin: 12px 0px 15px 0px;
+}
+
+.learn1{
+    margin-top: 7px;
+    border-radius: 3px; 
+background: rgb(84, 144, 245);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+
+}
+
+.learn2{
+    margin-top: 7px;
+    border-radius: 3px; 
+background: rgb(84, 144, 245);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+
+}
+
+.learn3{
+    margin-top: 7px;
+    border-radius: 3px; 
+background: rgb(84, 144, 245);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+
+}
+
+.overall{
+    padding: 10px 40px;
+    margin: 70px 80px;
+    
+}
+.card-container{
+    display: flex;
+    gap: 35px;
+    /* padding: 20px 40px;
+    margin: 40px 100px; */
+}
+
+.vision-container-1{
+   border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 18px;
+width: 370px;
+}
+.vision-container-2{
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 18px;
+    width: 370px;
+}
+.vision-container-3{
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 18px;
+    width: 370px;
+
+}
+
