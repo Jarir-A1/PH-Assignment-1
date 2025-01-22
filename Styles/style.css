@@ -168,6 +168,9 @@ border-radius: 24px;
 
 .title_format{
     text-align: center;
+    margin: 20px;
+    color: rgb(14, 14, 14);
+    font-weight: 800;
 }
 .small1{
     color: rgba(14, 14, 14, 0.8);
@@ -176,37 +179,146 @@ font-size: 30px;
 font-weight: 700;
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
-width: 200px;
+width: 150px;
 height: 100px;
-border-radius: 4px;
+border-radius: 7px;
 text-align: center;
 padding-top: 35px;
 background: rgb(255, 255, 255);
 }
 .special{
-     background: rgb(198, 228, 214);;
+     background: rgb(198, 228, 214);
+
+}
+.good-luck{
+    padding: 10px 160px 20px;
 }
 
 .mama{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px 10px;
 
 }
 .Donate{
     box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.1);
-border-radius: 8px;
+border-radius: 3px;
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size:  12px;
+font-weight: 300;
+width: 75px;
+height: 30px;
+margin-top: 20px;
+margin-bottom: 50px;
+
+}
+
+.lolo{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    width: 900px;
+    height: 50px;
+    padding: 10px 380px;
+
+    
+}
+
+.momo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 300px;
+  
+}
+.golo{
+    width: 900px;
+    text-align: center;
+}
+
+.big-holder{
+    width: 1280px;
+height: 464px;
+margin: 10px 150px;
+color: white;
+
+}
+
+.emailbuff{
+    width: 600px;
+height: 53px;
+    border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+padding-left: 20px;
+
+}
+
+.subscribe{
+    width: 150px;
+    height: 56px;
+border-radius: 0px 8px 8px 0px;
 
 background: rgb(0, 106, 80);
 color: rgb(255, 255, 255);
 font-family: Fira Sans;
 font-size: 18px;
-font-weight: 600;
-
+font-weight: 500;
+cursor: pointer;
 }
-.holder{
+
+.upper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 5px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+.buttom{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.uru{
+ width: 1000px;
+ height: 300px;
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 30px auto;
+}
+
+.tiktok{
+    background: url(../assets/quote-bg.png) , rgb(255, 255, 255);
+    background-position: 30px 65px;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 1100px;
+    height: 250px;
     box-sizing: border-box;
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-    background: rgb(255, 255, 255);
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+   display: flex;
+   align-items: left;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+   margin: 50px auto;
+   padding: 48px 24px 48px 24px;
 }
-
