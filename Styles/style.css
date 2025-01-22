@@ -38,7 +38,7 @@ background: rgb(198, 228, 214);
     height: 250;
 font-family: Fira Sans;
 font-size: 42;
-font-weight: 500;
+font-weight: 600;
 
 
 }
@@ -46,11 +46,18 @@ font-weight: 500;
 .btn-1{
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
-    font-size: 10px;
+    width: 120px;
+    height: 30px;
+    font-size: 8px;
     font-weight: 400;
     border-radius: 3px;
     background: rgb(0, 106, 80);
-    
+    cursor: pointer;
+       
+}
+.btn-1:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
 .img1{
@@ -87,28 +94,43 @@ color: rgb(255, 255, 255);
 font-family: Fira Sans;
 font-size: 16px;
 font-weight: 600;
+cursor: pointer;
 
+}
+.learn1:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+.learn2:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+.learn3:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
 .learn2{
     margin-top: 7px;
     border-radius: 3px; 
-background: rgb(84, 144, 245);
+    background: rgb(9, 161, 92);
 color: rgb(255, 255, 255);
 font-family: Fira Sans;
 font-size: 16px;
 font-weight: 600;
-
+cursor: pointer;
+margin-top: 20px;
 }
 
 .learn3{
     margin-top: 7px;
     border-radius: 3px; 
-background: rgb(84, 144, 245);
+    background: rgb(255, 194, 57);
 color: rgb(255, 255, 255);
 font-family: Fira Sans;
 font-size: 16px;
 font-weight: 600;
+cursor: pointer;
 
 }
 
@@ -129,31 +151,51 @@ font-weight: 600;
 background: rgba(84, 144, 245, 0.2);
 padding: 18px;
 width: 370px;
+cursor: pointer;
+}
+.vision-container-1:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+.vision-container-2:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+.vision-container-3:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 .vision-container-2{
     border-radius: 16px;
     background: rgb(198, 228, 214);
     padding: 18px;
     width: 370px;
+    cursor: pointer;
 }
 .vision-container-3{
     border-radius: 16px;
     background: rgb(247, 235, 207);
     padding: 18px;
     width: 370px;
+    cursor: pointer;
 
 }
 
 .flexbaba{
+    width: 1000px;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 24px;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: space-around;
-    background: rgb(255, 255, 255);
-    border-radius: 24px;
+    
     border-top: none ;
     padding: 20px 36px;
     margin: 40px 100px;
+
     
 }
 .imgbaba{
@@ -240,13 +282,21 @@ margin-bottom: 50px;
 .golo{
     width: 900px;
     text-align: center;
+    
 }
 
 .big-holder{
-    width: 1280px;
-height: 464px;
+    width: 1000px;
+    height: 450px;
+    background: rgb(255, 255, 255);
+    ;
+    border-radius: 24px;
 margin: 10px 150px;
 color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 
 }
 
@@ -271,7 +321,13 @@ font-family: Fira Sans;
 font-size: 18px;
 font-weight: 500;
 cursor: pointer;
+transition: background-color 0.3s, transform 0.3s;
 }
+.subscribe:hover {
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+
 
 .upper{
     display: flex;
