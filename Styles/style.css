@@ -227,6 +227,12 @@ border-radius: 7px;
 text-align: center;
 padding-top: 35px;
 background: rgb(255, 255, 255);
+cursor: pointer;
+}
+
+.small1:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 .special{
      background: rgb(198, 228, 214);
@@ -240,6 +246,7 @@ background: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 50px;
     padding: 20px 100px 10px;
 
 }
@@ -257,9 +264,12 @@ width: 75px;
 height: 30px;
 margin-top: 20px;
 margin-bottom: 50px;
-
+cursor: pointer;
 }
-
+.Donate:hover{
+    background-color: #a8dadc; /* Change background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
 .lolo{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
